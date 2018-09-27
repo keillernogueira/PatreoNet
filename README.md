@@ -17,7 +17,7 @@ This repository is a reimplementation of the proposed PatreoNet.
 Originally implemented using [Caffe](http://caffe.berkeleyvision.org/) framework, here, the network was implemented using [TensorFlow](http://tensorflow.org/) (0.10.0).
 
 	
-## Reimplementation
+## Models
 
 The trained model for the UCMerced Land-use can be found [here](https://www.dropbox.com/s/nxddpnpij1yqexo/PatreoNet_UCMerced_model.zip?dl=0).
 
