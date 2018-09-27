@@ -8,25 +8,21 @@ In this work, we introduced and evaluated the benefits of deep learning (specifi
 Specifically, a new network, called PatreoNet, is proposed to perform remote sensing image classification.
 The network, that has six layers (three convolutional, two fully-connected and one classifier layer), was tested in two remote sensing datasets:
 
-  - the popular aerial image dataset [UCMerced Land-use] (http://vision.ucmerced.edu/datasets/landuse.html)
+  - the popular aerial image dataset [UCMerced Land-use](http://vision.ucmerced.edu/datasets/landuse.html)
   - a multispectral high-resolution scenes of the [Brazilian Coffee Scenes](http://www.patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/)
   
 ## Reimplementation
 
 This repository is a reimplementation of the proposed PatreoNet.
-Originally implemented using [Caffe](http://caffe.berkeleyvision.org/) framework, here, the network was implemented using [TensorFlow](http://tensorflow.org/).
+Originally implemented using [Caffe](http://caffe.berkeleyvision.org/) framework, here, the network was implemented using [TensorFlow](http://tensorflow.org/) (0.10.0).
 
-Technically, it was tested using:
-
-	- python 2.7
-	- tensorflow 0.10.0
 	
 ## Reimplementation
 
 The trained model for the UCMerced Land-use can be found [here](https://www.dropbox.com/s/nxddpnpij1yqexo/PatreoNet_UCMerced_model.zip?dl=0).
 
   
-### Citing
+## Citing
 
 If you use this code in your research, please consider citing:
 
